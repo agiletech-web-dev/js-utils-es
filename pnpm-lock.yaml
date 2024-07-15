@@ -57,6 +57,9 @@ importers:
       '@shikijs/transformers':
         specifier: ^1.10.3
         version: 1.10.3
+      js-utils-es:
+        specifier: workspace:*
+        version: link:..
       prettier:
         specifier: ^3.3.2
         version: 3.3.3
@@ -82,9 +85,6 @@ importers:
       '@vitejs/plugin-vue-jsx':
         specifier: ^4.0.0
         version: 4.0.0(vite@5.3.3(@types/node@18.19.39)(less@4.2.0))(vue@3.4.31(typescript@5.5.3))
-      js-utils-es:
-        specifier: ^1.0.5
-        version: 1.0.5
       unocss:
         specifier: ^0.61.3
         version: 0.61.3(postcss@8.4.39)(rollup@4.18.1)(vite@5.3.3(@types/node@18.19.39)(less@4.2.0))
@@ -2483,9 +2483,6 @@ packages:
 
   js-tokens@9.0.0:
     resolution: {integrity: sha512-WriZw1luRMlmV3LGJaR6QOJjWwgLUTf89OwT2lUOyjX2dJGBwgmIkbcz+7WFZjrZM635JOIR517++e/67CP9dQ==}
-
-  js-utils-es@1.0.5:
-    resolution: {integrity: sha512-QIdzrzlBtfQMRuRx7WYj6TsTokEKg8VzP7X/o8uvRNupFA9eDPXk5g2QE7ikN50pw8QMPyi/VDkjvrbKUHerMQ==}
 
   js-yaml@3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
@@ -6866,8 +6863,6 @@ snapshots:
   js-tokens@4.0.0: {}
 
   js-tokens@9.0.0: {}
-
-  js-utils-es@1.0.5: {}
 
   js-yaml@3.14.1:
     dependencies:
