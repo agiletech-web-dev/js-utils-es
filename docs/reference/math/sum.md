@@ -20,7 +20,9 @@ function sum(nums: number[]): number;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { sum } from 'js-utils-es/math';
+
 const numbers = [1, 2, 3, 4, 5];
 const result = sum(numbers);
 // result will be 15

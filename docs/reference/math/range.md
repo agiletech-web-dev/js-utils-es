@@ -24,7 +24,9 @@ function range(start: number, end: number, step: number): number[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { range } from 'js-utils-es/math';
+
 // Returns [0, 1, 2, 3]
 range(4);
 

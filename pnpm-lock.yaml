@@ -54,6 +54,9 @@ importers:
 
   docs:
     dependencies:
+      '@shikijs/transformers':
+        specifier: ^1.10.3
+        version: 1.10.3
       prettier:
         specifier: ^3.3.2
         version: 3.3.3
@@ -68,7 +71,7 @@ importers:
         specifier: ^2.2.1
         version: 2.2.2(@algolia/client-search@4.24.0)(@types/node@18.19.39)(postcss@8.4.39)(search-insights@2.15.0)(typescript@5.5.3)
       '@nolebase/vitepress-plugin-git-changelog':
-        specifier: ^2.2.1
+        specifier: ^2.2.2
         version: 2.2.2(@algolia/client-search@4.24.0)(@types/node@18.19.39)(postcss@8.4.39)(search-insights@2.15.0)(typescript@5.5.3)
       '@nolebase/vitepress-plugin-highlight-targeted-heading':
         specifier: ^2.2.1

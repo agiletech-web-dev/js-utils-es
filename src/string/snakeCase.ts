@@ -9,10 +9,12 @@ import { getWords } from './_internal/getWords.ts';
  * @returns {string} - The converted string to snake case.
  *
  * @example
+ * ```javascript
  * const convertedStr1 = snakeCase('camelCase') // returns 'camel_case'
  * const convertedStr2 = snakeCase('some whitespace') // returns 'some_whitespace'
  * const convertedStr3 = snakeCase('hyphen-text') // returns 'hyphen_text'
  * const convertedStr4 = snakeCase('HTTPRequest') // returns 'http_request'
+ * ```
  */
 
 export function snakeCase(str: string): string {

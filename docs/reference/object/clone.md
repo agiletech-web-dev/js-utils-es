@@ -18,7 +18,9 @@ function clone<T>(value: T): T;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { clone } from 'js-utils-es/object';
+
 const num = 29;
 const clonedNum = clone(num);
 console.log(clonedNum); // 29

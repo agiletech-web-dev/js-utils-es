@@ -20,6 +20,9 @@ export default {
       mapAuthors: [
         {
           name: 'hunghg255',
+          username: 'hunghg255',
+          mapByNameAliases: ['Hung Hoang', 'Hoang Hung'],
+          mapByEmailAliases: ['giahunghust@gmail.com'],
         },
       ],
     })

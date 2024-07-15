@@ -23,7 +23,9 @@ function flattenDeep<T>(arr: T[]): Array<ExtractNestedArrayType<T>>;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { flattenDeep } from 'js-utils-es/array';
+
 const array = [1, [2, [3]], [4, [5, 6]]];
 
 const result = flattenDeep(array);

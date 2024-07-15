@@ -20,7 +20,7 @@ function kebabCase(str: string): string;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { kebabCase } from 'js-utils-es/string';
 
 kebabCase('camelCase'); // returns 'camel-case'

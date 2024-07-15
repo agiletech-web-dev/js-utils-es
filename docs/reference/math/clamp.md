@@ -24,7 +24,9 @@ function clamp(value: number, minimum: number, maximum: number): number;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { clamp } from 'js-utils-es/math';
+
 const result1 = clamp(10, 5); // result1 will be 5, as 10 is clamped to the bound 5
 const result2 = clamp(10, 5, 15); // result2 will be 10, as it is within the bounds 5 and 15
 const result3 = clamp(2, 5, 15); // result3 will be 5, as 2 is clamped to the lower bound 5

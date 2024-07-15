@@ -20,7 +20,7 @@ function camelCase(str: string): string;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { camelCase } from 'js-utils-es/string';
 
 camelCase('camelCase'); // returns 'camelCase'

@@ -22,7 +22,9 @@ function randomInt(minimum: number, maximum: number): number;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { randomInt } from 'js-utils-es/math';
+
 const result1 = randomInt(0, 5); // Returns a random integer between 0 and 5.
 const result2 = randomInt(5, 0); // If the minimum is greater than the maximum, an error is thrown
 const result3 = randomInt(5, 5); // If the minimum is equal to the maximum, an error is thrown.

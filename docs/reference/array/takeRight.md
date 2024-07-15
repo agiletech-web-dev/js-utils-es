@@ -21,7 +21,9 @@ function takeRight<T>(arr: T[], count: number): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { takeRight } from 'js-utils-es/array';
+
 // Returns [4, 5]
 takeRight([1, 2, 3, 4, 5], 2);
 

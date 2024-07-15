@@ -19,7 +19,9 @@ function unzipWith<T, R>(target: T[][], iteratee: (...args: T[]) => R): R[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { unzipWith } from 'js-utils-es/array';
+
 const nestedArray = [
   [1, 2],
   [3, 4],

@@ -27,7 +27,7 @@ Throws an error if `size` is not a positive integer.
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { chunk } from 'js-utils-es/array';
 
 // Splits an array of numbers into sub-arrays of length 2

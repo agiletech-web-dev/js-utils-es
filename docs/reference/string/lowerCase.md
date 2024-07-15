@@ -20,7 +20,7 @@ function lowerCase(str: string): string;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { lowerCase } from 'js-utils-es/string';
 
 lowerCase('camelCase'); // returns 'camel case'

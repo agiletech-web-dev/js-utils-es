@@ -19,7 +19,7 @@ function countBy<T>(arr: T[], mapper: (item: T) => string): Record<string, numbe
 
 ## Examples
 
-```javascript
+```typescript twoslash
 import { countBy } from 'js-utils-es/array';
 
 const array = [1, 2, 3, 4, 5, 6];

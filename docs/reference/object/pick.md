@@ -22,7 +22,9 @@ function pick<T extends Record<string, any>, K extends keyof T>(obj: T, keys: K[
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { pick } from 'js-utils-es/object';
+
 const obj = { a: 1, b: 2, c: 3 };
 const result = pick(obj, ['a', 'c']);
 // result will be { a: 1, c: 3 }

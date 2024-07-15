@@ -21,7 +21,9 @@ function takeWhile<T>(arr: T[], shouldContinueTaking: (element: T) => boolean): 
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { takeWhile } from 'js-utils-es/array';
+
 // Returns [1, 2]
 takeWhile([1, 2, 3, 4], x => x < 3);
 

@@ -21,7 +21,9 @@ function isEqual(a: unknown, b: unknown): boolean;
 
 ### Example 1: Comparing Primitive Values
 
-```javascript
+```typescript twoslash
+import { isEqual } from 'js-utils-es/predicate';
+
 isEqual(1, 1); // true
 isEqual('hello', 'hello'); // true
 isEqual(true, true); // true
@@ -32,14 +34,18 @@ isEqual(true, false); // false
 
 ### Example 2: Comparing Special Cases
 
-```javascript
+```typescript twoslash
+import { isEqual } from 'js-utils-es/predicate';
+
 isEqual(Number.NaN, Number.NaN); // true
 isEqual(+0, -0); // false
 ```
 
 ### Example 3: Comparing Date Objects
 
-```javascript
+```typescript twoslash
+import { isEqual } from 'js-utils-es/predicate';
+
 const date1 = new Date('2020-01-01');
 const date2 = new Date('2020-01-01');
 isEqual(date1, date2); // true
@@ -50,7 +56,9 @@ isEqual(date1, date3); // false
 
 ### Example 4: Comparing RegExp Objects
 
-```javascript
+```typescript twoslash
+import { isEqual } from 'js-utils-es/predicate';
+
 const regex1 = /hello/g;
 const regex2 = /hello/g;
 isEqual(regex1, regex2); // true
@@ -61,7 +69,9 @@ isEqual(regex1, regex3); // false
 
 ### Example 5: Comparing Objects
 
-```javascript
+```typescript twoslash
+import { isEqual } from 'js-utils-es/predicate';
+
 const obj1 = { a: 1, b: { c: 2 } };
 const obj2 = { a: 1, b: { c: 2 } };
 isEqual(obj1, obj2); // true
@@ -76,7 +86,9 @@ isEqual(obj4, obj5); // false
 
 ### Example 6: Comparing Arrays
 
-```javascript
+```typescript twoslash
+import { isEqual } from 'js-utils-es/predicate';
+
 const arr1 = [1, 2, 3];
 const arr2 = [1, 2, 3];
 isEqual(arr1, arr2); // true

@@ -21,10 +21,4 @@ features:
     details: js-utils-es ships up to 97% less JavaScript code compared to other alternative libraries.
   - title: Modern implementation
     details: js-utils-es fully leverages modern JavaScript APIs for straightforward and error-free implementation.
-  - title: Robust types
-    details: js-utils-es offers simple yet robust types for all functions.
-  - title: Battle-tested
-    details: js-utils-es has 100% test coverage, ensuring maximum robustness.
-  - title: Comprehensive runtime support
-    details: js-utils-es supports all JavaScript environments, including Node.js, Deno, Bun, and browsers.
 ---

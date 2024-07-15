@@ -22,7 +22,9 @@ function xorBy<T, U>(arr1: T[], arr2: T[], mapper: (item: T) => U): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { xorBy } from 'js-utils-es/array';
+
 // Returns [{ id: 1 }, { id: 3 }]
 xorBy([{ id: 1 }, { id: 2 }], [{ id: 2 }, { id: 3 }], x => x.id);
 ```

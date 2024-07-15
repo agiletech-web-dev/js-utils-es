@@ -20,7 +20,9 @@ function mean(nums: number[]): number;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { mean } from 'js-utils-es/math';
+
 const numbers = [1, 2, 3, 4, 5];
 const result = mean(numbers);
 // result will be 3

@@ -24,7 +24,9 @@ share that key.
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { groupBy } from 'js-utils-es/array';
+
 const array = [
   { category: 'fruit', name: 'apple' },
   { category: 'fruit', name: 'banana' },

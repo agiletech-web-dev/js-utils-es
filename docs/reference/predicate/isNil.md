@@ -15,7 +15,7 @@ function isNil(x: unknown): x is null | undefined;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { isNil } from 'js-utils-es/predicate';
 
 const value1 = null;

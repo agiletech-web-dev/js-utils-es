@@ -21,7 +21,9 @@ function zipObject<P extends string | number | symbol, V>(keys: P[], values: V[]
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { zipObject } from 'js-utils-es/array';
+
 const keys = ['a', 'b', 'c'];
 const values = [1, 2, 3];
 const result = zipObject(keys, values);

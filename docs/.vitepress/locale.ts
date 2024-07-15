@@ -20,7 +20,7 @@ export function getLocaleConfig(lang: string) {
     ['meta', { property: 'og:url', content: docsLink }],
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { property: 'twitter:image', content: `${docsLink}/og.png` }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#914796' }],
   ]
 
@@ -174,7 +174,7 @@ export function getLocaleConfig(lang: string) {
   ]
 
   const themeConfig: DefaultTheme.Config = {
-    logo: '/favicon.svg',
+    logo: '/logo.svg',
     nav,
     sidebar,
     socialLinks: [

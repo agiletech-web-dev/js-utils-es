@@ -21,7 +21,9 @@ export function head<T>(arr: T[]): T | undefined;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { head } from 'js-utils-es/array';
+
 const arr1 = [1, 2, 3];
 const firstElement1 = head(arr1);
 // firstElement1 will be 1

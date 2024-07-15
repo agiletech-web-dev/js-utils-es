@@ -23,7 +23,9 @@ function isNull(x: unknown): x is null;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { isNull } from 'js-utils-es/predicate';
+
 const value1 = null;
 const value2 = undefined;
 const value3 = 42;

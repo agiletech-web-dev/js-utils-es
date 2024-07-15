@@ -22,7 +22,9 @@ function xorWith<T>(arr1: T[], arr2: T[], areElementsEqual: (item1: T, item2: T)
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { xorWith } from 'js-utils-es/array';
+
 // Returns [{ id: 1 }, { id: 3 }]
 xorWith([{ id: 1 }, { id: 2 }], [{ id: 2 }, { id: 3 }], (a, b) => a.id === b.id);
 ```

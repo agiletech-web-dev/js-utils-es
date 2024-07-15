@@ -14,7 +14,7 @@ function noop(): void;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { noop } from 'js-utils-es/function';
 
 interface Props {

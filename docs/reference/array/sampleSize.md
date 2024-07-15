@@ -25,7 +25,9 @@ Throws an error if `size` is greater than the length of `array`.
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { sampleSize } from 'js-utils-es/array';
+
 const result = sampleSize([1, 2, 3], 2);
 // result will be an array containing two of the elements from the array.
 // [1, 2] or [1, 3] or [2, 3]

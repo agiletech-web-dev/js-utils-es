@@ -19,7 +19,9 @@ function takeRightWhile<T>(arr: T[], shouldContinueTaking: (item: T) => boolean)
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { takeRightWhile } from 'js-utils-es/array';
+
 // Returns [3, 2, 1]
 takeRightWhile([5, 4, 3, 2, 1], n => n < 4);
 

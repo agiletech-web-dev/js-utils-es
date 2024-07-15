@@ -22,7 +22,9 @@ function omit<T extends Record<string, any>, K extends keyof T>(obj: T, keys: K[
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { omit } from 'js-utils-es/object';
+
 const obj = { a: 1, b: 2, c: 3 };
 const result = omit(obj, ['b', 'c']);
 // result will be { a: 1 }

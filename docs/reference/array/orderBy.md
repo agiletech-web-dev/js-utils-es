@@ -25,7 +25,9 @@ function orderBy<T>(collection: T[], keys: Array<keyof T>, orders: Order[]): T[]
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { orderBy } from 'js-utils-es/array';
+
 const users = [
   { user: 'fred', age: 48 },
   { user: 'barney', age: 34 },

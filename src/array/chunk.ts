@@ -12,14 +12,18 @@
  * @throws {Error} Throws an error if `size` is not a positive integer.
  *
  * @example
+ * ```javascript
  * // Splits an array of numbers into sub-arrays of length 2
  * chunk([1, 2, 3, 4, 5], 2);
  * // Returns: [[1, 2], [3, 4], [5]]
+ * ```
  *
  * @example
+ * ```javascript
  * // Splits an array of strings into sub-arrays of length 3
  * chunk(['a', 'b', 'c', 'd', 'e', 'f', 'g'], 3);
  * // Returns: [['a', 'b', 'c'], ['d', 'e', 'f'], ['g']]
+ * ```
  */
 export function chunk<T>(arr: readonly T[], size: number): T[][] {
   if (!Number.isInteger(size) || size <= 0) {

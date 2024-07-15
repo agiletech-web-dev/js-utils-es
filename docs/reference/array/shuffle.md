@@ -20,7 +20,9 @@ function shuffle<T>(arr: T[]): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { shuffle } from 'js-utils-es/array';
+
 const array = [1, 2, 3, 4, 5];
 const shuffledArray = shuffle(array);
 // shuffledArray will be a new array with elements of array in random order, e.g., [3, 1, 4, 5, 2]

@@ -20,7 +20,9 @@ function isNotNil<T>(x: T | null | undefined): x is T;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { isNotNil } from 'js-utils-es/predicate';
+
 // Here the type of `arr` is (number | undefined)[]
 const arr = [1, undefined, 3];
 // Here the type of `result` is number[]

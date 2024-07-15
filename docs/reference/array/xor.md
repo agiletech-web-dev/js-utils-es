@@ -20,7 +20,9 @@ function xor<T>(arr1: T[], arr2: T[]): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { xor } from 'js-utils-es/array';
+
 // Returns [1, 2, 5, 6]
 xor([1, 2, 3, 4], [3, 4, 5, 6]);
 

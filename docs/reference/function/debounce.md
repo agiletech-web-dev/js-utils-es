@@ -29,7 +29,9 @@ function debounce<F extends (...args: any[]) => void>(
 
 ### Basic Usage
 
-```typescript
+```typescript twoslash
+import { debounce } from 'js-utils-es/function';
+
 const debouncedFunction = debounce(() => {
   console.log('Function executed');
 }, 1000);
@@ -43,7 +45,9 @@ debouncedFunction.cancel();
 
 ### Using with an AbortSignal
 
-```typescript
+```typescript twoslash
+import { debounce } from 'js-utils-es/function';
+
 const controller = new AbortController();
 const signal = controller.signal;
 const debouncedWithSignalFunction = debounce(

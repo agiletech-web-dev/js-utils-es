@@ -18,7 +18,7 @@ function negate<F extends (...args: unknown[]) => boolean>(func: F): F;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { negate } from 'js-utils-es/function';
 
 negate(() => true)(); // returns 'false'

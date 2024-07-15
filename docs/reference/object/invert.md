@@ -22,7 +22,9 @@ function invert<K extends string | number | symbol, V extends string | number | 
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { invert } from 'js-utils-es/object';
+
 const obj = { a: 1, b: 1, c: 2 };
 const result = invert(obj);
 // result will be { 1: 'b', 2: 'c' }

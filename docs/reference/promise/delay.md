@@ -26,7 +26,9 @@ function delay(ms: number, options?: DelayOptions): Promise<void>;
 
 ### Basic Usage
 
-```typescript
+```typescript twoslash
+import { delay } from 'js-utils-es/promise';
+
 async function foo() {
   console.log('Start');
   await delay(1000); // Delays execution for 1 second
@@ -38,7 +40,9 @@ foo();
 
 ### Using with an AbortSignal
 
-```typescript
+```typescript twoslash
+import { delay } from 'js-utils-es/promise';
+
 async function foo() {
   const controller = new AbortController();
   const signal = controller.signal;

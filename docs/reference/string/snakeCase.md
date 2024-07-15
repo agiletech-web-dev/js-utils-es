@@ -20,7 +20,7 @@ function snakeCase(str: string): string;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { snakeCase } from 'js-utils-es/string';
 
 snakeCase('camelCase'); // returns 'camel_case'

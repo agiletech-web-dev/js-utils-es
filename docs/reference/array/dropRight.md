@@ -22,7 +22,9 @@ function dropRight<T>(arr: T[], itemsCount: number): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { dropRight } from 'js-utils-es/array';
+
 const array = [1, 2, 3, 4, 5];
 const result = dropRight(array, 2);
 // result will be [1, 2, 3] since the last two elements are dropped.

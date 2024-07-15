@@ -14,6 +14,7 @@ export default defineConfig({
     VueJsx(),
     Unocss(),
     GitChangelog({
+      maxGitLogCount: 2000,
       repoURL: () => githubLink,
     }),
     GitChangelogMarkdownSection(),

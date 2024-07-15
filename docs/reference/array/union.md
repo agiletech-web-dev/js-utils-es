@@ -22,7 +22,9 @@ function union<T>(arr1: T[], arr2: T[]): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { union } from 'js-utils-es/array';
+
 const array1 = [1, 2, 3];
 const array2 = [3, 4, 5];
 const result = union(array1, array2);

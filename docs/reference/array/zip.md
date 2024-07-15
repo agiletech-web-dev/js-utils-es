@@ -27,7 +27,9 @@ function zip<T>(...arrs: T[][]): T[][];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { zip } from 'js-utils-es/array';
+
 const arr1 = [1, 2, 3];
 const arr2 = ['a', 'b', 'c'];
 const result = zip(arr1, arr2);

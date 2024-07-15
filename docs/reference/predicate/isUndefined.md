@@ -23,7 +23,9 @@ function isUndefined(x: unknown): x is undefined;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { isUndefined } from 'js-utils-es/predicate';
+
 const value1 = undefined;
 const value2 = null;
 const value3 = 42;

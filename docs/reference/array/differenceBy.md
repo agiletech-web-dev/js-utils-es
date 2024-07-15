@@ -26,8 +26,6 @@ function differenceBy<T, U>(firstArr: T[], secondArr: T[], mapper: (value: T) =>
 ## Examples
 
 ```typescript
-import { differenceBy } from 'js-utils-es/array';
-
 const array1 = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }];
 const array2 = [{ id: 2 }, { id: 4 }];
 const mapper = item => item.id;

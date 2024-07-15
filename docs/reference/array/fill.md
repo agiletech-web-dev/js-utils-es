@@ -25,7 +25,9 @@ function fill<T, P>(array: T[], value: P, start: number, end: number): Array<T |
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { fill } from 'js-utils-es/array';
+
 const array1 = [1, 2, 3];
 const result1 = fill(array1, 'a');
 // result1 => ['a', 'a', 'a']

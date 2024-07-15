@@ -21,7 +21,9 @@ function flatten<T, D extends number = 1>(arr: T[], depth?: D): Array<FlatArray<
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { flatten } from 'js-utils-es/array';
+
 const array = [1, [2, 3], [4, [5, 6]]];
 
 const result1 = flatten(array);

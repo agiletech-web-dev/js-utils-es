@@ -22,7 +22,9 @@ function dropRightWhile<T>(arr: T[], canContinueDropping: (item: T) => boolean):
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { dropRightWhile } from 'js-utils-es/array';
+
 const array = [1, 2, 3, 4, 5];
 const result = dropRightWhile(array, x => x > 3);
 // result will be [1, 2, 3] since elements greater than 3 are dropped from the end.

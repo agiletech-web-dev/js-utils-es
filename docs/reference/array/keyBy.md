@@ -23,7 +23,9 @@ function keyBy<T, K extends PropertyKey>(arr: T[], getKeyFromItem: (item: T) => 
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { keyBy } from 'js-utils-es/array';
+
 const array = [
   { category: 'fruit', name: 'apple' },
   { category: 'fruit', name: 'banana' },

@@ -18,7 +18,9 @@ function compact<T>(arr: T[]): Array<Exclude<T, false | null | 0 | '' | undefine
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { compact } from 'js-utils-es/array';
+
 compact([0, 1, false, 2, '', 3, null, undefined, 4, Number.NaN, 5]);
 // Returns: [1, 2, 3, 4, 5]
 ```

@@ -20,7 +20,9 @@ function sample<T>(arr: T[]): T;
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { sample } from 'js-utils-es/array';
+
 const array = [1, 2, 3, 4, 5];
 const randomElement = sample(array);
 // randomElement will be one of the elements from the array, selected randomly.

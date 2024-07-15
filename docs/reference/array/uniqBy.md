@@ -19,7 +19,9 @@ function uniqBy<T, U>(arr: T[], mapper: (item: T) => U): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { uniqBy } from 'js-utils-es/array';
+
 uniqBy([1.2, 1.5, 2.1, 3.2, 5.7, 5.3, 7.19], Math.floor);
 // [1.2, 2.1, 3.3, 5.7, 7.19]
 ```

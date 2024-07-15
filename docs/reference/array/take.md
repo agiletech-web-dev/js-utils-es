@@ -21,7 +21,9 @@ function take<T>(arr: T[], count: number): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
+import { take } from 'js-utils-es/array';
+
 // Returns [1, 2, 3]
 take([1, 2, 3, 4, 5], 3);
 

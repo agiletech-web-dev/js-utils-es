@@ -24,7 +24,7 @@ in the second array.
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { difference } from 'js-utils-es/array';
 
 const array1 = [1, 2, 3, 4, 5];

@@ -18,7 +18,7 @@ function capitalize<T extends string>(str: T): Capitalize<T>;
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { capitalize } from 'js-utils-es/string';
 
 capitalize('fred'); // returns 'Fred'

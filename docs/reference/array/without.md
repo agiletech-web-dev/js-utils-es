@@ -21,7 +21,7 @@ function without<T>(array: T[], ...values: T[]): T[];
 
 ## Examples
 
-```typescript
+```typescript twoslash
 import { without } from 'js-utils-es/array';
 
 // Removes the specified values from the array
