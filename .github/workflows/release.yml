@@ -1,0 +1,28 @@
+name: Release
+
+permissions:
+  contents: write
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Continuous integration
+        uses: ./.github/cache
+
+      - run: pnpm run publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - run: pnpm dlx changeloggithub@latest
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
