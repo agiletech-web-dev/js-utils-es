@@ -58,8 +58,8 @@ importers:
         specifier: ^1.10.3
         version: 1.10.3
       js-utils-es:
-        specifier: workspace:*
-        version: link:..
+        specifier: 1.0.7
+        version: 1.0.7
       prettier:
         specifier: ^3.3.2
         version: 3.3.3
@@ -2483,6 +2483,9 @@ packages:
 
   js-tokens@9.0.0:
     resolution: {integrity: sha512-WriZw1luRMlmV3LGJaR6QOJjWwgLUTf89OwT2lUOyjX2dJGBwgmIkbcz+7WFZjrZM635JOIR517++e/67CP9dQ==}
+
+  js-utils-es@1.0.7:
+    resolution: {integrity: sha512-9zMeLfNy82KXlIJZV4ONTL42BfYby83CywV7BILlQ05ktkc3LWfxK+W/FqiPsN+pT9rT1OKE/b+z9xMCzMesWw==}
 
   js-yaml@3.14.1:
     resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==}
@@ -6863,6 +6866,8 @@ snapshots:
   js-tokens@4.0.0: {}
 
   js-tokens@9.0.0: {}
+
+  js-utils-es@1.0.7: {}
 
   js-yaml@3.14.1:
     dependencies:
