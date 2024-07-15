@@ -25,6 +25,7 @@ export default {
           mapByEmailAliases: ['giahunghust@gmail.com'],
         },
       ],
+      numCommitHashLetters: 7,
     })
     app.use(TwoslashFloatingVue)
   },
