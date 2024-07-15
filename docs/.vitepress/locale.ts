@@ -158,7 +158,10 @@ export function getLocaleConfig(lang: string) {
         },
         {
           text: t('Promise Utilities'),
-          items: [{ text: 'delay', link: '/reference/promise/delay' }],
+          items: [
+            { text: 'delay', link: '/reference/promise/delay' },
+            { text: 'pChain', link: '/reference/promise/pChain' },
+          ],
         },
         {
           text: t('String Utilities'),
