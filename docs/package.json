@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@shikijs/transformers": "^1.10.3",
-    "js-utils-es": "workspace:*",
+    "js-utils-es": "1.0.7",
     "prettier": "^3.3.2",
     "shiki": "^1.10.3"
   },

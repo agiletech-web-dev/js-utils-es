@@ -6,8 +6,8 @@ env:
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - release
 
 # This is what will cancel the workflow
 concurrency:
