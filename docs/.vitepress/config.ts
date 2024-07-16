@@ -2,11 +2,13 @@ import { defineConfig } from 'vitepress'
 import { defaultHoverInfoProcessor, transformerTwoslash } from '@shikijs/vitepress-twoslash'
 import { transformerRemoveNotationEscape } from '@shikijs/transformers'
 import { getLocaleConfig } from './locale'
+import { transformHead } from './transformHead'
 
 const docsLink = 'https://js-utils-es.vercel.app'
 
 export default defineConfig({
-  lastUpdated: true,
+  lang: 'en-US',
+  ignoreDeadLinks: true,
   locales: {
     root: getLocaleConfig('en'),
   },
@@ -39,6 +41,7 @@ export default defineConfig({
   sitemap: {
     hostname: docsLink,
   },
+  transformHead,
   markdown: {
     codeTransformers: [
       {
@@ -97,4 +100,4 @@ export default defineConfig({
       transformerRemoveNotationEscape(),
     ],
   },
-})
+});
