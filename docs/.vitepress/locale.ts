@@ -15,13 +15,12 @@ export function getLocaleConfig(lang: string) {
   const head: HeadConfig[] = [
     ['meta', { property: 'og:title', content: title }],
     ['meta', { property: 'og:description', content: description }],
-    ['meta', { property: 'og:image', content: `${docsLink}/og.png` }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: docsLink }],
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { property: 'twitter:image', content: `${docsLink}/og.png` }],
     ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#914796' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', sizes: '180x180' }],
   ]
 
   const nav: DefaultTheme.NavItem[] = [
@@ -194,22 +193,22 @@ export function getLocaleConfig(lang: string) {
     },
   }
 
-  if (lang === 'zh-CN') {
-    Object.assign(themeConfig, {
-      outline: {
-        label: '页面导航',
-      },
-      lastUpdatedText: '最后更新于',
-      darkModeSwitchLabel: '外观',
-      sidebarMenuLabel: '目录',
-      returnToTopLabel: '返回顶部',
-      langMenuLabel: '选择语言',
-      docFooter: {
-        prev: '上一页',
-        next: '下一页',
-      },
-    } satisfies DefaultTheme.Config)
-  }
+  // if (lang === 'zh-CN') {
+  //   Object.assign(themeConfig, {
+  //     outline: {
+  //       label: '页面导航',
+  //     },
+  //     lastUpdatedText: '最后更新于',
+  //     darkModeSwitchLabel: '外观',
+  //     sidebarMenuLabel: '目录',
+  //     returnToTopLabel: '返回顶部',
+  //     langMenuLabel: '选择语言',
+  //     docFooter: {
+  //       prev: '上一页',
+  //       next: '下一页',
+  //     },
+  //   } satisfies DefaultTheme.Config)
+  // }
 
   const localeConfig: LocaleConfig<DefaultTheme.Config>[string] = {
     label: t('English'),
