@@ -1,7 +1,6 @@
 {
   "name": "js-utils-es",
   "version": "1.0.7",
-  "packageManager": "pnpm@9.5.0",
   "description": "A state-of-the-art, high-performance JavaScript utility library with a small bundle size and strong type annotations.",
   "license": "MIT",
   "homepage": "https://js-utils-es.vercel.app",
