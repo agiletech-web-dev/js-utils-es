@@ -17,7 +17,6 @@
   "devDependencies": {
     "@nolebase/vitepress-plugin-enhanced-mark": "^2.2.1",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.2.1",
-    "@nolebase/vitepress-plugin-git-changelog": "^2.2.2",
     "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.2.1",
     "@shikijs/vitepress-twoslash": "^1.10.3",
     "@vitejs/plugin-vue-jsx": "^4.0.0",

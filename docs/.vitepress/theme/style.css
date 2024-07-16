@@ -185,3 +185,9 @@
 .VPHomeHero .VPImage {
   border-radius: 16px;
 }
+
+.changeLog {
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--vp-c-bg-soft);
+}

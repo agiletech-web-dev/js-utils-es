@@ -7,5 +7,6 @@ export default antfu({
     'style/member-delimiter-style': 'off',
     'ts/ban-ts-comment': 'off',
     'test/consistent-test-it': 'off',
+    'style/eol-last': 'off',
   },
 });

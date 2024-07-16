@@ -65,8 +65,17 @@ export async function getFunctionMarkdown(pkg: string, name: string) {
     .map(i => `[${i![0]}](${i![1]})`).join(' • ')
 
   const sourceSection = `## Source\n\n${links}\n`
+  const ContributorsSection = `
+## Contributors
 
-  const footer = `\n${sourceSection}`
+<Contributors fn="${fileNameTs}" />
+  `
+  const changelogSection = `
+## Changelog
+
+<Changelog fn="${fileNameTs}" />
+`
+  const footer = `\n${sourceSection}\n${ContributorsSection}\n${changelogSection}\n`
 
   return footer;
 }

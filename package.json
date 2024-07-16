@@ -203,14 +203,20 @@
     "docs:dev": "pnpm run -C ./docs dev",
     "docs:preview": "pnpm run -C ./docs preview",
     "docs:build": "pnpm run -C ./docs build",
-    "verify-commit": "verify-commit-msg"
+    "verify-commit": "verify-commit-msg",
+    "gen-changelog": "esno ./scripts/genFuncUtils.ts && esno ./scripts/changelog.ts"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.22.0",
+    "@types/md5": "^2.3.5",
     "@types/node": "^18.19.33",
     "bumpp": "^9.4.1",
     "eslint": "^9.7.0",
+    "esno": "^4.7.0",
+    "execa": "^9.3.0",
     "git-scm-hooks": "^0.0.7",
+    "globby": "^14.0.2",
+    "md5": "^2.3.0",
     "tsup": "^8.1.0",
     "typescript": "^5.4.5",
     "verify-commit-msg": "^0.0.10",
