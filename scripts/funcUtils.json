@@ -1,0 +1,611 @@
+[
+  {
+    "name": "AbortError.ts",
+    "package": "error",
+    "alias": [
+      "AbortError"
+    ]
+  },
+  {
+    "name": "chunk.ts",
+    "package": "array",
+    "alias": [
+      "chunk"
+    ]
+  },
+  {
+    "name": "compact.ts",
+    "package": "array",
+    "alias": [
+      "compact"
+    ]
+  },
+  {
+    "name": "countBy.ts",
+    "package": "array",
+    "alias": [
+      "countBy"
+    ]
+  },
+  {
+    "name": "difference.ts",
+    "package": "array",
+    "alias": [
+      "difference"
+    ]
+  },
+  {
+    "name": "differenceBy.ts",
+    "package": "array",
+    "alias": [
+      "differenceBy"
+    ]
+  },
+  {
+    "name": "differenceWith.ts",
+    "package": "array",
+    "alias": [
+      "differenceWith"
+    ]
+  },
+  {
+    "name": "drop.ts",
+    "package": "array",
+    "alias": [
+      "drop"
+    ]
+  },
+  {
+    "name": "dropRight.ts",
+    "package": "array",
+    "alias": [
+      "dropRight"
+    ]
+  },
+  {
+    "name": "dropRightWhile.ts",
+    "package": "array",
+    "alias": [
+      "dropRightWhile"
+    ]
+  },
+  {
+    "name": "dropWhile.ts",
+    "package": "array",
+    "alias": [
+      "dropWhile"
+    ]
+  },
+  {
+    "name": "fill.ts",
+    "package": "array",
+    "alias": [
+      "fill"
+    ]
+  },
+  {
+    "name": "flatten.ts",
+    "package": "array",
+    "alias": [
+      "flatten"
+    ]
+  },
+  {
+    "name": "flattenDeep.ts",
+    "package": "array",
+    "alias": [
+      "flattenDeep"
+    ]
+  },
+  {
+    "name": "forEachRight.ts",
+    "package": "array",
+    "alias": [
+      "forEachRight"
+    ]
+  },
+  {
+    "name": "groupBy.ts",
+    "package": "array",
+    "alias": [
+      "groupBy"
+    ]
+  },
+  {
+    "name": "head.ts",
+    "package": "array",
+    "alias": [
+      "head"
+    ]
+  },
+  {
+    "name": "initial.ts",
+    "package": "array",
+    "alias": [
+      "initial"
+    ]
+  },
+  {
+    "name": "intersection.ts",
+    "package": "array",
+    "alias": [
+      "intersection"
+    ]
+  },
+  {
+    "name": "intersectionBy.ts",
+    "package": "array",
+    "alias": [
+      "intersectionBy"
+    ]
+  },
+  {
+    "name": "intersectionWith.ts",
+    "package": "array",
+    "alias": [
+      "intersectionWith"
+    ]
+  },
+  {
+    "name": "keyBy.ts",
+    "package": "array",
+    "alias": [
+      "keyBy"
+    ]
+  },
+  {
+    "name": "last.ts",
+    "package": "array",
+    "alias": [
+      "last"
+    ]
+  },
+  {
+    "name": "maxBy.ts",
+    "package": "array",
+    "alias": [
+      "maxBy"
+    ]
+  },
+  {
+    "name": "minBy.ts",
+    "package": "array",
+    "alias": [
+      "minBy"
+    ]
+  },
+  {
+    "name": "orderBy.ts",
+    "package": "array",
+    "alias": [
+      "orderBy"
+    ]
+  },
+  {
+    "name": "partition.ts",
+    "package": "array",
+    "alias": [
+      "partition"
+    ]
+  },
+  {
+    "name": "sample.ts",
+    "package": "array",
+    "alias": [
+      "sample"
+    ]
+  },
+  {
+    "name": "sampleSize.ts",
+    "package": "array",
+    "alias": [
+      "sampleSize"
+    ]
+  },
+  {
+    "name": "shuffle.ts",
+    "package": "array",
+    "alias": [
+      "shuffle"
+    ]
+  },
+  {
+    "name": "tail.ts",
+    "package": "array",
+    "alias": [
+      "tail"
+    ]
+  },
+  {
+    "name": "take.ts",
+    "package": "array",
+    "alias": [
+      "take"
+    ]
+  },
+  {
+    "name": "takeRight.ts",
+    "package": "array",
+    "alias": [
+      "takeRight"
+    ]
+  },
+  {
+    "name": "takeRightWhile.ts",
+    "package": "array",
+    "alias": [
+      "takeRightWhile"
+    ]
+  },
+  {
+    "name": "takeWhile.ts",
+    "package": "array",
+    "alias": [
+      "takeWhile"
+    ]
+  },
+  {
+    "name": "toFilled.ts",
+    "package": "array",
+    "alias": [
+      "toFilled"
+    ]
+  },
+  {
+    "name": "union.ts",
+    "package": "array",
+    "alias": [
+      "union"
+    ]
+  },
+  {
+    "name": "unionBy.ts",
+    "package": "array",
+    "alias": [
+      "unionBy"
+    ]
+  },
+  {
+    "name": "unionWith.ts",
+    "package": "array",
+    "alias": [
+      "unionWith"
+    ]
+  },
+  {
+    "name": "uniq.ts",
+    "package": "array",
+    "alias": [
+      "uniq"
+    ]
+  },
+  {
+    "name": "uniqBy.ts",
+    "package": "array",
+    "alias": [
+      "uniqBy"
+    ]
+  },
+  {
+    "name": "uniqWith.ts",
+    "package": "array",
+    "alias": [
+      "uniqWith"
+    ]
+  },
+  {
+    "name": "unzip.ts",
+    "package": "array",
+    "alias": [
+      "unzip"
+    ]
+  },
+  {
+    "name": "unzipWith.ts",
+    "package": "array",
+    "alias": [
+      "unzipWith"
+    ]
+  },
+  {
+    "name": "without.ts",
+    "package": "array",
+    "alias": [
+      "without"
+    ]
+  },
+  {
+    "name": "xor.ts",
+    "package": "array",
+    "alias": [
+      "xor"
+    ]
+  },
+  {
+    "name": "xorBy.ts",
+    "package": "array",
+    "alias": [
+      "xorBy"
+    ]
+  },
+  {
+    "name": "xorWith.ts",
+    "package": "array",
+    "alias": [
+      "xorWith"
+    ]
+  },
+  {
+    "name": "zip.ts",
+    "package": "array",
+    "alias": [
+      "zip"
+    ]
+  },
+  {
+    "name": "zipObject.ts",
+    "package": "array",
+    "alias": [
+      "zipObject"
+    ]
+  },
+  {
+    "name": "zipWith.ts",
+    "package": "array",
+    "alias": [
+      "zipWith"
+    ]
+  },
+  {
+    "name": "debounce.ts",
+    "package": "function",
+    "alias": [
+      "debounce"
+    ]
+  },
+  {
+    "name": "negate.ts",
+    "package": "function",
+    "alias": [
+      "negate"
+    ]
+  },
+  {
+    "name": "noop.ts",
+    "package": "function",
+    "alias": [
+      "noop"
+    ]
+  },
+  {
+    "name": "once.ts",
+    "package": "function",
+    "alias": [
+      "once"
+    ]
+  },
+  {
+    "name": "throttle.ts",
+    "package": "function",
+    "alias": [
+      "throttle"
+    ]
+  },
+  {
+    "name": "clamp.ts",
+    "package": "math",
+    "alias": [
+      "clamp"
+    ]
+  },
+  {
+    "name": "inRange.ts",
+    "package": "math",
+    "alias": [
+      "inRange"
+    ]
+  },
+  {
+    "name": "lerp.ts",
+    "package": "math",
+    "alias": [
+      "lerp"
+    ]
+  },
+  {
+    "name": "mean.ts",
+    "package": "math",
+    "alias": [
+      "mean"
+    ]
+  },
+  {
+    "name": "meanBy.ts",
+    "package": "math",
+    "alias": [
+      "meanBy"
+    ]
+  },
+  {
+    "name": "random.ts",
+    "package": "math",
+    "alias": [
+      "random"
+    ]
+  },
+  {
+    "name": "randomInt.ts",
+    "package": "math",
+    "alias": [
+      "randomInt"
+    ]
+  },
+  {
+    "name": "range.ts",
+    "package": "math",
+    "alias": [
+      "range"
+    ]
+  },
+  {
+    "name": "remap.ts",
+    "package": "math",
+    "alias": [
+      "remap"
+    ]
+  },
+  {
+    "name": "round.ts",
+    "package": "math",
+    "alias": [
+      "round"
+    ]
+  },
+  {
+    "name": "sum.ts",
+    "package": "math",
+    "alias": [
+      "sum"
+    ]
+  },
+  {
+    "name": "sumBy.ts",
+    "package": "math",
+    "alias": [
+      "sumBy"
+    ]
+  },
+  {
+    "name": "isEqual.ts",
+    "package": "predicate",
+    "alias": [
+      "isEqual"
+    ]
+  },
+  {
+    "name": "isNil.ts",
+    "package": "predicate",
+    "alias": [
+      "isNil"
+    ]
+  },
+  {
+    "name": "isNotNil.ts",
+    "package": "predicate",
+    "alias": [
+      "isNotNil"
+    ]
+  },
+  {
+    "name": "isNull.ts",
+    "package": "predicate",
+    "alias": [
+      "isNull"
+    ]
+  },
+  {
+    "name": "isUndefined.ts",
+    "package": "predicate",
+    "alias": [
+      "isUndefined"
+    ]
+  },
+  {
+    "name": "clone.ts",
+    "package": "object",
+    "alias": [
+      "clone"
+    ]
+  },
+  {
+    "name": "invert.ts",
+    "package": "object",
+    "alias": [
+      "invert"
+    ]
+  },
+  {
+    "name": "omit.ts",
+    "package": "object",
+    "alias": [
+      "omit"
+    ]
+  },
+  {
+    "name": "omitBy.ts",
+    "package": "object",
+    "alias": [
+      "omitBy"
+    ]
+  },
+  {
+    "name": "pick.ts",
+    "package": "object",
+    "alias": [
+      "pick"
+    ]
+  },
+  {
+    "name": "pickBy.ts",
+    "package": "object",
+    "alias": [
+      "pickBy"
+    ]
+  },
+  {
+    "name": "delay.ts",
+    "package": "promise",
+    "alias": [
+      "delay"
+    ]
+  },
+  {
+    "name": "pChain.ts",
+    "package": "promise",
+    "alias": [
+      "pChain"
+    ]
+  },
+  {
+    "name": "camelCase.ts",
+    "package": "string",
+    "alias": [
+      "camelCase"
+    ]
+  },
+  {
+    "name": "capitalize.ts",
+    "package": "string",
+    "alias": [
+      "capitalize"
+    ]
+  },
+  {
+    "name": "kebabCase.ts",
+    "package": "string",
+    "alias": [
+      "kebabCase"
+    ]
+  },
+  {
+    "name": "lowerCase.ts",
+    "package": "string",
+    "alias": [
+      "lowerCase"
+    ]
+  },
+  {
+    "name": "snakeCase.ts",
+    "package": "string",
+    "alias": [
+      "snakeCase"
+    ]
+  },
+  {
+    "name": "array",
+    "package": "compat",
+    "alias": [
+      "array"
+    ]
+  }
+]

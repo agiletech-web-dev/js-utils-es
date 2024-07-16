@@ -1,0 +1,45 @@
+[
+  {
+    "hash": "b46fd189054ce51423c4a64be7d18178faa97404",
+    "date": "Tue Jul 16 01:24:15 2024 +0700",
+    "message": "chore: release v1.0.7",
+    "refs": "tag: v1.0.7",
+    "body": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "version": "v1.0.7"
+  },
+  {
+    "hash": "45d9826f1e6d21e6bea36b94cf5b1a724993f8c4",
+    "date": "Tue Jul 16 01:08:08 2024 +0700",
+    "message": "chore: release v1.0.6",
+    "refs": "tag: v1.0.6",
+    "body": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "version": "v1.0.6"
+  },
+  {
+    "hash": "a7c518171a70ba81224735117856db639ff1cd6b",
+    "date": "Tue Jul 16 00:58:08 2024 +0700",
+    "message": "feat: add pChain",
+    "refs": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "functions": [
+      "pChain"
+    ]
+  },
+  {
+    "hash": "493feda33e3b935c6aa5d94d24068a4f7825413c",
+    "date": "Mon Jul 15 16:03:59 2024 +0700",
+    "message": "docs: update",
+    "refs": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "functions": [
+      "chunk",
+      "snakeCase"
+    ]
+  }
+]
