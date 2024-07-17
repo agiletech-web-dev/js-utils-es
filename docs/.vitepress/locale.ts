@@ -148,11 +148,19 @@ export function getLocaleConfig(lang: string) {
         {
           text: t('Predicates'),
           items: [
+            { text: 'isBoolean', link: '/reference/predicate/isBoolean' },
+            { text: 'isDate', link: '/reference/predicate/isDate' },
             { text: 'isEqual', link: '/reference/predicate/isEqual' },
+            { text: 'isFunction', link: '/reference/predicate/isFunction' },
             { text: 'isNil', link: '/reference/predicate/isNil' },
             { text: 'isNotNil', link: '/reference/predicate/isNotNil' },
             { text: 'isNull', link: '/reference/predicate/isNull' },
+            { text: 'isNumber', link: '/reference/predicate/isNumber' },
+            { text: 'isObject', link: '/reference/predicate/isObject' },
+            { text: 'isRegExp', link: '/reference/predicate/isRegExp' },
+            { text: 'isString', link: '/reference/predicate/isString' },
             { text: 'isUndefined', link: '/reference/predicate/isUndefined' },
+            { text: 'isWindow', link: '/reference/predicate/isWindow' },
           ],
         },
         {
