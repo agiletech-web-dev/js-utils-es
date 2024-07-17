@@ -10,12 +10,12 @@ This function can also serve as a type predicate in TypeScript, narrowing the ty
 ## Signature
 
 ```typescript
-function isUndefined(x: unknown): x is undefined;
+function isUndefined(val: any): val is undefined
 ```
 
 ### Parameters
 
-- `x` (`unknown`): The value to test if it is `undefined`.
+- `x` (`any`): The value to test if it is `undefined`.
 
 ### Returns
 

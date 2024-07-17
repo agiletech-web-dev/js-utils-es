@@ -10,7 +10,7 @@ This function can also serve as a type predicate in TypeScript, narrowing the ty
 ## Signature
 
 ```typescript
-function isNull(x: unknown): x is null;
+function isNull(val: any): val is null
 ```
 
 ### Parameters
