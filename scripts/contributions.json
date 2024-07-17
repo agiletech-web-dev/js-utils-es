@@ -475,41 +475,6 @@
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "isEqual.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "isNil.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "isNotNil.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "isNull.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "isUndefined.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
   "clone.ts": [
     {
       "name": "hunghg255",
@@ -546,6 +511,97 @@
     }
   ],
   "pickBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isBoolean.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isDate.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isEqual.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isFunction.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isNil.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isNotNil.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isNull.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isNumber.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isObject.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isRegExp.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isString.ts": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isUndefined.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "isWindow.ts": [
     {
       "name": "hunghg255",
       "count": 1,
@@ -602,6 +658,13 @@
     }
   ],
   "array": [
+    {
+      "name": "hunghg255",
+      "count": 1,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "_internal": [
     {
       "name": "hunghg255",
       "count": 1,

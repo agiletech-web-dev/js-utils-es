@@ -1,5 +1,34 @@
 [
   {
+    "hash": "8bc93607abed18bb3b7365f7f1e27e97be70d684",
+    "date": "Thu Jul 18 00:30:42 2024 +0700",
+    "message": "chore: release v1.0.8",
+    "refs": "HEAD -> release, tag: v1.0.8, origin/release",
+    "body": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "version": "v1.0.8"
+  },
+  {
+    "hash": "3a88b973c2cee5bcd225dc0c3ec7b1de702e21c6",
+    "date": "Thu Jul 18 00:28:29 2024 +0700",
+    "message": "feat(predicate): add is utils",
+    "refs": "origin/feat/update-is-utils, feat/update-is-utils",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "functions": [
+      "toString",
+      "isBoolean",
+      "isDate",
+      "isFunction",
+      "isNumber",
+      "isObject",
+      "isRegExp",
+      "isString",
+      "isWindow"
+    ]
+  },
+  {
     "hash": "b46fd189054ce51423c4a64be7d18178faa97404",
     "date": "Tue Jul 16 01:24:15 2024 +0700",
     "message": "chore: release v1.0.7",
