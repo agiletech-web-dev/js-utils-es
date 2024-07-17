@@ -1,3 +1,5 @@
+import { toString } from './_internal/toString';
+
 /**
  * Checks if the given value is null.
  *
@@ -18,6 +20,7 @@
  * console.log(isNull(value2)); // false
  * console.log(isNull(value3)); // false
  */
-export function isNull(x: unknown): x is null {
-  return x === null;
+
+export function isNull(val: any): val is null {
+  return toString(val) === '[object Null]';
 }

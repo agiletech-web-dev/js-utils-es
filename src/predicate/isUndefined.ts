@@ -1,3 +1,5 @@
+import { toString } from './_internal/toString';
+
 /**
  * Checks if the given value is undefined.
  *
@@ -18,6 +20,7 @@
  * console.log(isUndefined(value2)); // false
  * console.log(isUndefined(value3)); // false
  */
-export function isUndefined(x: unknown): x is undefined {
-  return x === undefined;
+
+export function isUndefined(val: any): val is undefined {
+  return toString(val) === '[object Undefined]';
 }
