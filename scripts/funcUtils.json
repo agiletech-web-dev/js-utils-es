@@ -476,41 +476,6 @@
     ]
   },
   {
-    "name": "isEqual.ts",
-    "package": "predicate",
-    "alias": [
-      "isEqual"
-    ]
-  },
-  {
-    "name": "isNil.ts",
-    "package": "predicate",
-    "alias": [
-      "isNil"
-    ]
-  },
-  {
-    "name": "isNotNil.ts",
-    "package": "predicate",
-    "alias": [
-      "isNotNil"
-    ]
-  },
-  {
-    "name": "isNull.ts",
-    "package": "predicate",
-    "alias": [
-      "isNull"
-    ]
-  },
-  {
-    "name": "isUndefined.ts",
-    "package": "predicate",
-    "alias": [
-      "isUndefined"
-    ]
-  },
-  {
     "name": "clone.ts",
     "package": "object",
     "alias": [
@@ -550,6 +515,97 @@
     "package": "object",
     "alias": [
       "pickBy"
+    ]
+  },
+  {
+    "name": "isBoolean.ts",
+    "package": "predicate",
+    "alias": [
+      "isBoolean"
+    ]
+  },
+  {
+    "name": "isDate.ts",
+    "package": "predicate",
+    "alias": [
+      "isDate"
+    ]
+  },
+  {
+    "name": "isEqual.ts",
+    "package": "predicate",
+    "alias": [
+      "isEqual"
+    ]
+  },
+  {
+    "name": "isFunction.ts",
+    "package": "predicate",
+    "alias": [
+      "isFunction"
+    ]
+  },
+  {
+    "name": "isNil.ts",
+    "package": "predicate",
+    "alias": [
+      "isNil"
+    ]
+  },
+  {
+    "name": "isNotNil.ts",
+    "package": "predicate",
+    "alias": [
+      "isNotNil"
+    ]
+  },
+  {
+    "name": "isNull.ts",
+    "package": "predicate",
+    "alias": [
+      "isNull"
+    ]
+  },
+  {
+    "name": "isNumber.ts",
+    "package": "predicate",
+    "alias": [
+      "isNumber"
+    ]
+  },
+  {
+    "name": "isObject.ts",
+    "package": "predicate",
+    "alias": [
+      "isObject"
+    ]
+  },
+  {
+    "name": "isRegExp.ts",
+    "package": "predicate",
+    "alias": [
+      "isRegExp"
+    ]
+  },
+  {
+    "name": "isString.ts",
+    "package": "predicate",
+    "alias": [
+      "isString"
+    ]
+  },
+  {
+    "name": "isUndefined.ts",
+    "package": "predicate",
+    "alias": [
+      "isUndefined"
+    ]
+  },
+  {
+    "name": "isWindow.ts",
+    "package": "predicate",
+    "alias": [
+      "isWindow"
     ]
   },
   {
@@ -606,6 +662,13 @@
     "package": "compat",
     "alias": [
       "array"
+    ]
+  },
+  {
+    "name": "_internal",
+    "package": "predicate",
+    "alias": [
+      "_internal"
     ]
   }
 ]
