@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "packageManager": "pnpm@9.5.0",
   "scripts": {
     "core:build": "pnpm --filter js-utils-es... build",
