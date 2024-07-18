@@ -1,6 +1,6 @@
 {
   "name": "js-utils-es",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "packageManager": "pnpm@9.5.0",
   "description": "A state-of-the-art, high-performance JavaScript utility library with a small bundle size and strong type annotations.",
   "license": "MIT",
@@ -192,8 +192,8 @@
   },
   "scripts": {
     "build": "tsup && ./scripts/postbuild.sh",
-    "prepublishOnly": "npm run build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm build"
   },
   "devDependencies": {
     "@types/node": "^18.19.33",
