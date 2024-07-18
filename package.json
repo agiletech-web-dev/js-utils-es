@@ -199,12 +199,13 @@
     "format": "prettier --write .",
     "prepare": "git-scm-hooks",
     "prepublishOnly": "npm run build",
-    "release": "bumpp --commit --push --tag && npm publish",
+    "release": "bumpp --commit --push --tag",
     "docs:dev": "pnpm run -C ./docs dev",
     "docs:preview": "pnpm run -C ./docs preview",
     "docs:build": "pnpm run -C ./docs build",
     "verify-commit": "verify-commit-msg",
-    "gen-changelog": "esno ./scripts/genFuncUtils.ts && esno ./scripts/changelog.ts"
+    "gen-changelog": "esno ./scripts/genFuncUtils.ts && esno ./scripts/changelog.ts",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.22.0",
