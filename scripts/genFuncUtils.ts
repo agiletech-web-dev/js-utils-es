@@ -14,12 +14,14 @@ import { globby } from 'globby';
 // ]
 
 (async () => {
-  const files = await globby('src/**/*.ts', {
-    ignore: ['src/index.ts', 'src/**/*/index.ts', 'src/**/*.spec.ts', 'src/string/_internal/*.ts', 'src/compat/_internal/*.ts'], // Exclude .spec.ts files
+  const files = await globby('packages/core/src/**/*.ts', {
+    ignore: ['packages/core/src/index.ts', 'packages/core/src/**/*/index.ts', 'packages/core/src/**/*.spec.ts', 'packages/core/src/string/_internal/*.ts', 'packages/core/src/predicate/_internal/*.ts', 'packages/core/src/compat/_internal/*.ts'], // Exclude .spec.ts files
   })
+  // console.log(files);
 
   const newFile = files.map((v: any) => {
-    const [, _name, i] = v.split('/');
+    const vv = v.replace('packages/core/', '');
+    const [, _name, i] = vv.split('/');
 
     return {
       name: i,
@@ -27,6 +29,7 @@ import { globby } from 'globby';
       alias: [i.replace('.ts', '')],
     }
   });
+  console.log(newFile);
 
   fs.writeFileSync('./scripts/funcUtils.json', JSON.stringify(newFile, null, 2));
 })()

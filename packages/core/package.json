@@ -1,0 +1,218 @@
+{
+  "name": "js-utils-es",
+  "version": "1.0.8",
+  "packageManager": "pnpm@9.5.0",
+  "description": "A state-of-the-art, high-performance JavaScript utility library with a small bundle size and strong type annotations.",
+  "license": "MIT",
+  "homepage": "https://js-utils-es.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agiletech-web-dev/js-utils-es.git"
+  },
+  "bugs": "https://github.com/agiletech-web-dev/js-utils-es/issues",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    },
+    "./array": {
+      "import": {
+        "types": "./dist/array/index.d.mts",
+        "default": "./dist/array/index.mjs"
+      },
+      "require": {
+        "types": "./dist/array/index.d.ts",
+        "default": "./dist/array/index.js"
+      }
+    },
+    "./function": {
+      "import": {
+        "types": "./dist/function/index.d.mts",
+        "default": "./dist/function/index.mjs"
+      },
+      "require": {
+        "types": "./dist/function/index.d.ts",
+        "default": "./dist/function/index.js"
+      }
+    },
+    "./math": {
+      "import": {
+        "types": "./dist/math/index.d.mts",
+        "default": "./dist/math/index.mjs"
+      },
+      "require": {
+        "types": "./dist/math/index.d.ts",
+        "default": "./dist/math/index.js"
+      }
+    },
+    "./object": {
+      "import": {
+        "types": "./dist/object/index.d.mts",
+        "default": "./dist/object/index.mjs"
+      },
+      "require": {
+        "types": "./dist/object/index.d.ts",
+        "default": "./dist/object/index.js"
+      }
+    },
+    "./predicate": {
+      "import": {
+        "types": "./dist/predicate/index.d.mts",
+        "default": "./dist/predicate/index.mjs"
+      },
+      "require": {
+        "types": "./dist/predicate/index.d.ts",
+        "default": "./dist/predicate/index.js"
+      }
+    },
+    "./promise": {
+      "import": {
+        "types": "./dist/promise/index.d.mts",
+        "default": "./dist/promise/index.mjs"
+      },
+      "require": {
+        "types": "./dist/promise/index.d.ts",
+        "default": "./dist/promise/index.js"
+      }
+    },
+    "./string": {
+      "import": {
+        "types": "./dist/string/index.d.mts",
+        "default": "./dist/string/index.mjs"
+      },
+      "require": {
+        "types": "./dist/string/index.d.ts",
+        "default": "./dist/string/index.js"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+      ".": {
+        "import": {
+          "types": "./dist/index.d.mts",
+          "default": "./dist/index.mjs"
+        },
+        "require": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        }
+      },
+      "./array": {
+        "import": {
+          "types": "./dist/array/index.d.mts",
+          "default": "./dist/array/index.mjs"
+        },
+        "require": {
+          "types": "./dist/array/index.d.ts",
+          "default": "./dist/array/index.js"
+        }
+      },
+      "./function": {
+        "import": {
+          "types": "./dist/function/index.d.mts",
+          "default": "./dist/function/index.mjs"
+        },
+        "require": {
+          "types": "./dist/function/index.d.ts",
+          "default": "./dist/function/index.js"
+        }
+      },
+      "./math": {
+        "import": {
+          "types": "./dist/math/index.d.mts",
+          "default": "./dist/math/index.mjs"
+        },
+        "require": {
+          "types": "./dist/math/index.d.ts",
+          "default": "./dist/math/index.js"
+        }
+      },
+      "./object": {
+        "import": {
+          "types": "./dist/object/index.d.mts",
+          "default": "./dist/object/index.mjs"
+        },
+        "require": {
+          "types": "./dist/object/index.d.ts",
+          "default": "./dist/object/index.js"
+        }
+      },
+      "./predicate": {
+        "import": {
+          "types": "./dist/predicate/index.d.mts",
+          "default": "./dist/predicate/index.mjs"
+        },
+        "require": {
+          "types": "./dist/predicate/index.d.ts",
+          "default": "./dist/predicate/index.js"
+        }
+      },
+      "./promise": {
+        "import": {
+          "types": "./dist/promise/index.d.mts",
+          "default": "./dist/promise/index.mjs"
+        },
+        "require": {
+          "types": "./dist/promise/index.d.ts",
+          "default": "./dist/promise/index.js"
+        }
+      },
+      "./string": {
+        "import": {
+          "types": "./dist/string/index.d.mts",
+          "default": "./dist/string/index.mjs"
+        },
+        "require": {
+          "types": "./dist/string/index.d.ts",
+          "default": "./dist/string/index.js"
+        }
+      },
+      "./package.json": "./package.json"
+    }
+  },
+  "scripts": {
+    "build": "tsup && ./scripts/postbuild.sh",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.22.0",
+    "@types/md5": "^2.3.5",
+    "@types/node": "^18.19.33",
+    "bumpp": "^9.4.1",
+    "eslint": "^9.7.0",
+    "esno": "^4.7.0",
+    "execa": "^9.3.0",
+    "git-scm-hooks": "^0.0.7",
+    "globby": "^14.0.2",
+    "md5": "^2.3.0",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5",
+    "verify-commit-msg": "^0.0.10",
+    "vitest": "^1.5.2"
+  },
+  "git-hooks": {
+    "pre-commit": "npm run lint",
+    "commit-msg": "npm run verify-commit"
+  }
+}
