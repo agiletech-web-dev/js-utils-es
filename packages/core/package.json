@@ -196,23 +196,8 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.0",
-    "@types/md5": "^2.3.5",
     "@types/node": "^18.19.33",
-    "bumpp": "^9.4.1",
-    "eslint": "^9.7.0",
-    "esno": "^4.7.0",
-    "execa": "^9.3.0",
-    "git-scm-hooks": "^0.0.7",
-    "globby": "^14.0.2",
-    "md5": "^2.3.0",
     "tsup": "^8.1.0",
-    "typescript": "^5.4.5",
-    "verify-commit-msg": "^0.0.10",
-    "vitest": "^1.5.2"
-  },
-  "git-hooks": {
-    "pre-commit": "npm run lint",
-    "commit-msg": "npm run verify-commit"
+    "typescript": "^5.4.5"
   }
 }
