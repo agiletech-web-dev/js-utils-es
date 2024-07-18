@@ -117,48 +117,15 @@ importers:
 
   packages/core:
     devDependencies:
-      '@antfu/eslint-config':
-        specifier: ^2.22.0
-        version: 2.22.2(@vue/compiler-sfc@3.4.31)(eslint@9.7.0)(typescript@5.5.3)(vitest@1.6.0(@types/node@18.19.39)(less@4.2.0)(terser@5.31.2))
-      '@types/md5':
-        specifier: ^2.3.5
-        version: 2.3.5
       '@types/node':
         specifier: ^18.19.33
         version: 18.19.39
-      bumpp:
-        specifier: ^9.4.1
-        version: 9.4.1
-      eslint:
-        specifier: ^9.7.0
-        version: 9.7.0
-      esno:
-        specifier: ^4.7.0
-        version: 4.7.0
-      execa:
-        specifier: ^9.3.0
-        version: 9.3.0
-      git-scm-hooks:
-        specifier: ^0.0.7
-        version: 0.0.7
-      globby:
-        specifier: ^14.0.2
-        version: 14.0.2
-      md5:
-        specifier: ^2.3.0
-        version: 2.3.0
       tsup:
         specifier: ^8.1.0
         version: 8.1.0(postcss@8.4.39)(typescript@5.5.3)
       typescript:
         specifier: ^5.4.5
         version: 5.5.3
-      verify-commit-msg:
-        specifier: ^0.0.10
-        version: 0.0.10
-      vitest:
-        specifier: ^1.5.2
-        version: 1.6.0(@types/node@18.19.39)(less@4.2.0)(terser@5.31.2)
 
 packages:
 
