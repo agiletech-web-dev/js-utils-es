@@ -51,6 +51,7 @@ export function getLocaleConfig(lang: string) {
       items: [
         {
           text: t('Array Utilities'),
+          collapsed: false,
           items: [
             { text: 'chunk', link: '/reference/array/chunk' },
             { text: 'countBy', link: '/reference/array/countBy' },
@@ -109,6 +110,7 @@ export function getLocaleConfig(lang: string) {
         },
         {
           text: t('Function Utilities'),
+          collapsed: false,
           items: [
             { text: 'debounce', link: '/reference/function/debounce' },
             { text: 'throttle', link: '/reference/function/throttle' },
@@ -119,6 +121,7 @@ export function getLocaleConfig(lang: string) {
         },
         {
           text: t('Math Utilities'),
+          collapsed: false,
           items: [
             { text: 'clamp', link: '/reference/math/clamp' },
             { text: 'inRange', link: '/reference/math/inRange' },
@@ -136,6 +139,7 @@ export function getLocaleConfig(lang: string) {
         },
         {
           text: t('Object Utilities'),
+          collapsed: false,
           items: [
             { text: 'clone', link: '/reference/object/clone' },
             { text: 'omit', link: '/reference/object/omit' },
@@ -147,6 +151,7 @@ export function getLocaleConfig(lang: string) {
         },
         {
           text: t('Predicates'),
+          collapsed: false,
           items: [
             { text: 'isBoolean', link: '/reference/predicate/isBoolean' },
             { text: 'isDate', link: '/reference/predicate/isDate' },
@@ -165,6 +170,7 @@ export function getLocaleConfig(lang: string) {
         },
         {
           text: t('Promise Utilities'),
+          collapsed: false,
           items: [
             { text: 'delay', link: '/reference/promise/delay' },
             { text: 'pChain', link: '/reference/promise/pChain' },
@@ -172,6 +178,7 @@ export function getLocaleConfig(lang: string) {
         },
         {
           text: t('String Utilities'),
+          collapsed: false,
           items: [
             { text: 'snakeCase', link: '/reference/string/snakeCase' },
             { text: 'kebabCase', link: '/reference/string/kebabCase' },

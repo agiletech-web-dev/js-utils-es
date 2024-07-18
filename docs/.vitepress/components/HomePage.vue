@@ -3,6 +3,8 @@ import { VPTeamMembers } from 'vitepress/theme'
 import { computed } from 'vue'
 import { useTranslate } from '../i18n/composable'
 
+import HomeContributors from './HomeContributors.vue'
+
 const t = useTranslate()
 
 const members = computed(() => [
@@ -23,10 +25,6 @@ const members = computed(() => [
   <div flex="~ col wrap" mt8 items-center>
     <VPTeamMembers size="small" :members="members" />
 
-    <br />
-
-    <a href="https://github.com/agiletech-web-dev/js-utils-es/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=agiletech-web-dev/js-utils-es" />
-    </a>
+    <HomeContributors />
   </div>
 </template>
