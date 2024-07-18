@@ -35,7 +35,7 @@ jobs:
       - name: Install
         run: pnpm install
 
-      - run: npx changelogithub
+      - run: npx changeloggithub@latest
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
