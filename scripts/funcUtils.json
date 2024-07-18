@@ -518,6 +518,20 @@
     ]
   },
   {
+    "name": "delay.ts",
+    "package": "promise",
+    "alias": [
+      "delay"
+    ]
+  },
+  {
+    "name": "pChain.ts",
+    "package": "promise",
+    "alias": [
+      "pChain"
+    ]
+  },
+  {
     "name": "isBoolean.ts",
     "package": "predicate",
     "alias": [
@@ -609,20 +623,6 @@
     ]
   },
   {
-    "name": "delay.ts",
-    "package": "promise",
-    "alias": [
-      "delay"
-    ]
-  },
-  {
-    "name": "pChain.ts",
-    "package": "promise",
-    "alias": [
-      "pChain"
-    ]
-  },
-  {
     "name": "camelCase.ts",
     "package": "string",
     "alias": [
@@ -662,13 +662,6 @@
     "package": "compat",
     "alias": [
       "array"
-    ]
-  },
-  {
-    "name": "_internal",
-    "package": "predicate",
-    "alias": [
-      "_internal"
     ]
   }
 ]

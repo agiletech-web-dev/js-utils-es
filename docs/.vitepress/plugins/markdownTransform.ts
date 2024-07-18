@@ -44,10 +44,8 @@ export function MarkdownTransform(): Plugin {
   }
 }
 
-const GITHUB_BLOB_URL = 'https://github.com/agiletech-web-dev/js-utils-es/blob/main/src';
+const GITHUB_BLOB_URL = 'https://github.com/agiletech-web-dev/js-utils-es/blob/main/packages/core/src';
 const GITHUB_BLOB_DOCS_URL = 'https://github.com/agiletech-web-dev/js-utils-es/blob/main/docs/reference';
-// https://github.com/agiletech-web-dev/js-utils-es/blob/main/src/array/chunk.ts
-// https://github.com/agiletech-web-dev/js-utils-es/blob/main/docs/reference/array/chunk.md
 
 export async function getFunctionMarkdown(pkg: string, name: string) {
   const fileNameTs = name.replace('.md', '.ts');

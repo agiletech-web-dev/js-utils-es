@@ -3,7 +3,7 @@
     "hash": "8bc93607abed18bb3b7365f7f1e27e97be70d684",
     "date": "Thu Jul 18 00:30:42 2024 +0700",
     "message": "chore: release v1.0.8",
-    "refs": "HEAD -> release, tag: v1.0.8, origin/release",
+    "refs": "tag: v1.0.8",
     "body": "",
     "author_name": "hunghg255",
     "author_email": "giahunghust@gmail.com",
