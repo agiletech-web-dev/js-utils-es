@@ -192,8 +192,8 @@
   },
   "scripts": {
     "build": "tsup && ./scripts/postbuild.sh",
-    "prepublishOnly": "npm run build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm build"
   },
   "devDependencies": {
     "@types/node": "^18.19.33",
