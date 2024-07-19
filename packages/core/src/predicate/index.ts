@@ -1,5 +1,13 @@
+export { isBoolean } from './isBoolean.ts';
+export { isDate } from './isDate.ts';
 export { isEqual } from './isEqual.ts';
+export { isFunction } from './isFunction.ts';
 export { isNil } from './isNil.ts';
 export { isNotNil } from './isNotNil.ts';
 export { isNull } from './isNull.ts';
+export { isNumber } from './isNumber.ts';
+export { isObject } from './isObject.ts';
+export { isRegExp } from './isRegExp.ts';
+export { isString } from './isString.ts';
 export { isUndefined } from './isUndefined.ts';
+export { isWindow } from './isWindow.ts';

@@ -2,665 +2,665 @@
   "AbortError.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "chunk.ts": [
-    {
-      "name": "hunghg255",
       "count": 2,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "compact.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "countBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "difference.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "differenceBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "differenceWith.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "drop.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "dropRight.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "dropRightWhile.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "dropWhile.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "fill.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "flatten.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "flattenDeep.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "forEachRight.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "groupBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "head.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "initial.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "intersection.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "intersectionBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "intersectionWith.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "keyBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "last.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "maxBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "minBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "orderBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "partition.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "sample.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "sampleSize.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "shuffle.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "tail.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "take.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "takeRight.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "takeRightWhile.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "takeWhile.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "toFilled.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "union.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "unionBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "unionWith.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "uniq.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "uniqBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "uniqWith.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "unzip.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "unzipWith.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "without.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "xor.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "xorBy.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "xorWith.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "zip.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "zipObject.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
-      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
-    }
-  ],
-  "zipWith.ts": [
-    {
-      "name": "hunghg255",
-      "count": 1,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "debounce.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "negate.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "noop.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "once.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "throttle.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "clamp.ts": [
+  "chunk.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 3,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "inRange.ts": [
+  "compact.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "lerp.ts": [
+  "countBy.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "mean.ts": [
+  "difference.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "meanBy.ts": [
+  "differenceBy.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "random.ts": [
+  "differenceWith.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "randomInt.ts": [
+  "drop.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "range.ts": [
+  "dropRight.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "remap.ts": [
+  "dropRightWhile.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "round.ts": [
+  "dropWhile.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "sum.ts": [
+  "fill.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
-  "sumBy.ts": [
+  "flatten.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "flattenDeep.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "forEachRight.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "groupBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "head.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "initial.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "intersection.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "intersectionBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "intersectionWith.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "keyBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "last.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "maxBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "minBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "orderBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "partition.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "sample.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "sampleSize.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "shuffle.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "tail.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "take.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "takeRight.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "takeRightWhile.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "takeWhile.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "toFilled.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "union.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "unionBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "unionWith.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "uniq.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "uniqBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "uniqWith.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "unzip.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "unzipWith.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "without.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "xor.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "xorBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "xorWith.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "zip.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "zipObject.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "zipWith.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "clone.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "invert.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "omit.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "omitBy.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "pick.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "pickBy.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "clamp.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "inRange.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "lerp.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "mean.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "meanBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "random.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "randomInt.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "range.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "remap.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "round.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "sum.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
+      "hash": "3732f6a5b9cdd33a2f401844e7daf029"
+    }
+  ],
+  "sumBy.ts": [
+    {
+      "name": "hunghg255",
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "delay.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "pChain.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isBoolean.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isDate.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isEqual.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isFunction.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isNil.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isNotNil.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isNull.ts": [
     {
       "name": "hunghg255",
-      "count": 2,
+      "count": 3,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isNumber.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isObject.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isRegExp.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isString.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isUndefined.ts": [
     {
       "name": "hunghg255",
-      "count": 2,
+      "count": 3,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "isWindow.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "camelCase.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "capitalize.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "kebabCase.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "lowerCase.ts": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "snakeCase.ts": [
     {
       "name": "hunghg255",
-      "count": 2,
+      "count": 3,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ],
   "array": [
     {
       "name": "hunghg255",
-      "count": 1,
+      "count": 2,
       "hash": "3732f6a5b9cdd33a2f401844e7daf029"
     }
   ]
