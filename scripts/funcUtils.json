@@ -7,6 +7,41 @@
     ]
   },
   {
+    "name": "debounce.ts",
+    "package": "function",
+    "alias": [
+      "debounce"
+    ]
+  },
+  {
+    "name": "negate.ts",
+    "package": "function",
+    "alias": [
+      "negate"
+    ]
+  },
+  {
+    "name": "noop.ts",
+    "package": "function",
+    "alias": [
+      "noop"
+    ]
+  },
+  {
+    "name": "once.ts",
+    "package": "function",
+    "alias": [
+      "once"
+    ]
+  },
+  {
+    "name": "throttle.ts",
+    "package": "function",
+    "alias": [
+      "throttle"
+    ]
+  },
+  {
     "name": "chunk.ts",
     "package": "array",
     "alias": [
@@ -357,38 +392,45 @@
     ]
   },
   {
-    "name": "debounce.ts",
-    "package": "function",
+    "name": "clone.ts",
+    "package": "object",
     "alias": [
-      "debounce"
+      "clone"
     ]
   },
   {
-    "name": "negate.ts",
-    "package": "function",
+    "name": "invert.ts",
+    "package": "object",
     "alias": [
-      "negate"
+      "invert"
     ]
   },
   {
-    "name": "noop.ts",
-    "package": "function",
+    "name": "omit.ts",
+    "package": "object",
     "alias": [
-      "noop"
+      "omit"
     ]
   },
   {
-    "name": "once.ts",
-    "package": "function",
+    "name": "omitBy.ts",
+    "package": "object",
     "alias": [
-      "once"
+      "omitBy"
     ]
   },
   {
-    "name": "throttle.ts",
-    "package": "function",
+    "name": "pick.ts",
+    "package": "object",
     "alias": [
-      "throttle"
+      "pick"
+    ]
+  },
+  {
+    "name": "pickBy.ts",
+    "package": "object",
+    "alias": [
+      "pickBy"
     ]
   },
   {
@@ -473,48 +515,6 @@
     "package": "math",
     "alias": [
       "sumBy"
-    ]
-  },
-  {
-    "name": "clone.ts",
-    "package": "object",
-    "alias": [
-      "clone"
-    ]
-  },
-  {
-    "name": "invert.ts",
-    "package": "object",
-    "alias": [
-      "invert"
-    ]
-  },
-  {
-    "name": "omit.ts",
-    "package": "object",
-    "alias": [
-      "omit"
-    ]
-  },
-  {
-    "name": "omitBy.ts",
-    "package": "object",
-    "alias": [
-      "omitBy"
-    ]
-  },
-  {
-    "name": "pick.ts",
-    "package": "object",
-    "alias": [
-      "pick"
-    ]
-  },
-  {
-    "name": "pickBy.ts",
-    "package": "object",
-    "alias": [
-      "pickBy"
     ]
   },
   {

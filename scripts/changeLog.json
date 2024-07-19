@@ -1,5 +1,45 @@
 [
   {
+    "hash": "a0635cb44eeb737fe0b1c6c3ef6fdacaea6cdde9",
+    "date": "Thu Jul 18 13:27:08 2024 +0700",
+    "message": "chore: release v1.0.12",
+    "refs": "tag: v1.0.12",
+    "body": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "version": "v1.0.12"
+  },
+  {
+    "hash": "9da0c8c8b4421654986029a7cf4fc347ce5363f7",
+    "date": "Thu Jul 18 13:22:51 2024 +0700",
+    "message": "chore: release v1.0.11",
+    "refs": "tag: v1.0.11",
+    "body": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "version": "v1.0.11"
+  },
+  {
+    "hash": "fd16d0f26080855d39dfdd17cb9ea456261cd56b",
+    "date": "Thu Jul 18 13:16:39 2024 +0700",
+    "message": "chore: release v1.0.10",
+    "refs": "tag: v1.0.10",
+    "body": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "version": "v1.0.10"
+  },
+  {
+    "hash": "4e4063004ed9416db474442d37ef40828feb2656",
+    "date": "Thu Jul 18 13:01:17 2024 +0700",
+    "message": "chore: release v1.0.9",
+    "refs": "tag: v1.0.9",
+    "body": "",
+    "author_name": "hunghg255",
+    "author_email": "giahunghust@gmail.com",
+    "version": "v1.0.9"
+  },
+  {
     "hash": "8bc93607abed18bb3b7365f7f1e27e97be70d684",
     "date": "Thu Jul 18 00:30:42 2024 +0700",
     "message": "chore: release v1.0.8",
